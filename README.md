@@ -1,0 +1,2 @@
+# gocool
+go is cool
