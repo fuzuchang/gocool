@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"gocool/config"
+	"fmt"
+)
 
 func main()  {
 	fmt.Println("today is good")
+	config.GetConfig()
 }
