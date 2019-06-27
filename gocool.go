@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 	"gocool/config"
-	study "gocool/study/grammar"
+	studyGrammar "gocool/study/grammar"
+	studyStructures "gocool/study/structures"
 )
 
 func main() {
@@ -17,9 +18,11 @@ func main() {
 		fmt.Println(k, v)
 	}
 
-	study.DeclareArray()
-	study.InitEmptyArray()
-	study.InitValueArray()
-	study.InitLenValueArray()
+	studyGrammar.DeclareArray()
+	studyGrammar.InitEmptyArray()
+	studyGrammar.InitValueArray()
+	studyGrammar.InitLenValueArray()
+
+	studyStructures.TestFunc()
 
 }
